@@ -1,0 +1,115 @@
+body{
+    min-height: 100vh;
+    background: black;
+}
+@font-face {
+    font-family: 'shrift';
+    src: url(../font/ITCKabelStdBold.TTF);
+}
+/*общее*/
+.container{
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+}
+/*shapka*/
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background: url("../img/1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    aspect-ratio: 2/1;
+    box-shadow: inset 2px 2px 5px rgba(118, 3, 201, 0.5), 1px 1px 1px rgba(118, 3, 201, 0.5);
+    flex-grow: 0;
+}
+.nav{
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    color: #dcdcdc;
+    flex-grow: 1;
+    font-size: calc(0.5em +1vw);
+}
+.nav-item{
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-family: 'shrift';
+}
+.nav-item:hover{
+    text-shadow: 5px 5px 10px aqua, 1px 1px 1px green;
+}
+.bg-line{
+    background: url("../img/111.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.2/0.4;
+    margin: 25px 0;
+    
+}
+.head{
+    text-align: center;
+    letter-spacing: 2rem;
+    color: #d41212;
+    font-size: calc(1em + 5vw);
+    font-family: 'shrift';
+    text-shadow: 2px 2px 1px black;
+}
+/*shah*/
+.line{
+    display: flex;
+    margin: 25px auto;
+    width: 80vw;
+}
+.img1{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.text1{
+    color: white;
+    font-size: calc(0.5em +1vw);
+    margin: 0px 10px 10px 20px;
+    flex:1 1 50%;
+}
+.img2{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.img2 img, .img1 img{
+    width: 100%;
+    height: auto;
+}
+.text2{
+    color: white;
+    font-size: calc(0.5em +1vw);
+    margin: 0px 10px 10px 20px;
+    flex:1 1 50%;
+}
+footer{
+    color: azure;
+    display: flex;
+    width: 100%;
+    background-color:darkgrey;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.footer-nav-item{
+    font-size: calc(0.2em +1vw);
+}
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
