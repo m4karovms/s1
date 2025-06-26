@@ -20,7 +20,7 @@ header{
     justify-content: space-around;
 }
 .logo{
-    background: url("img/dt1.jpg");
+    background: url("/img/dt1.jpg");
     background-size: cover;
     border-radius: 10px;
     height: auto;

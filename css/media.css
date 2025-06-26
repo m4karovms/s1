@@ -22,7 +22,7 @@
         margin-bottom: 10px;
     }
     .logo{
-        background: url("img/logo.png");
+        background: url("/img/logo.png");
         background-size: cover;
         border-radius: 10px;
         height: 45px;
