@@ -20,7 +20,7 @@ header{
     justify-content: space-around;
 }
 .logo{
-    background: url("img/dt1.jpg");
+    background: url("../img/dt1.jpg");
     background-size: cover;
     border-radius: 10px;
     height: auto;
@@ -48,7 +48,7 @@ header{
     text-shadow: 5px 5px 10px aqua, 1px 1px 1px green;
 }
 .bg-line{
-    background: url("img/s11.jpg");
+    background: url("../img/s11.jpg");
     background-size: cover;
     width: 100%;
     height: auto;
